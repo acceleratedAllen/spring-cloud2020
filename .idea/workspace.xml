@@ -30,6 +30,7 @@
     <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/" />
     <ignored path="$PROJECT_DIR$/cloudalibaba-comsumer-nacos-order83/target/" />
     <ignored path="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,17 @@
     <favorites_list name="cloud2020" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/ConfiClientMain3366.java" />
         <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/com/atguigu/springcloud/ConfiClientMain3366.java" />
         <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controllrt/ConfigClientController.java" />
         <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/application.yml" />
@@ -141,6 +151,7 @@
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" />
       </list>
     </option>
   </component>
@@ -177,9 +188,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="595" />
+    <option name="y" value="79" />
     <option name="width" value="1221" />
     <option name="height" value="696" />
   </component>
@@ -197,8 +208,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -509,14 +520,16 @@
       <workItem from="1586955092446" duration="6114000" />
       <workItem from="1587003720166" duration="11397000" />
       <workItem from="1587109779162" duration="136000" />
+      <workItem from="1587387000473" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154284000" />
+    <option name="totallyTimeSpent" value="155125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="11" width="1221" height="696" extended-state="0" />
+    <frame x="595" y="79" width="1221" height="696" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.5721562" />
@@ -534,13 +547,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.1090573" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.1090573" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49924356" weight="0.39219016" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293718" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30220714" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.21259843" />
-      <window_info active="true" content_ui="combo" x="1091" y="248" width="247" height="238" id="Project" order="1" sideWeight="0.3735849" visible="true" weight="0.36089578" />
+      <window_info content_ui="combo" x="1091" y="248" width="247" height="238" id="Project" order="1" sideWeight="0.3735849" weight="0.36692506" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -557,7 +570,6 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32931036" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.11714771" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Spring" order="0" />
@@ -565,11 +577,10 @@
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49924356" weight="0.39219016" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
-      <window_info id="Capture Tool" order="7" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.6264151" side_tool="true" weight="0.29425114" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293718" />
-      <window_info id="ZooKeeper" order="8" weight="0.25718608" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30220714" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.5721562" />
@@ -581,7 +592,9 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.38350984" />
-      <window_info active="true" content_ui="combo" x="1091" y="248" width="247" height="238" id="Project" order="1" sideWeight="0.3735849" visible="true" weight="0.31164902" />
+      <window_info id="ZooKeeper" order="8" weight="0.25718608" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info active="true" content_ui="combo" x="1091" y="248" width="247" height="238" id="Project" order="1" sideWeight="0.3735849" visible="true" weight="0.36692506" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info id="Web" order="0" side_tool="true" />
@@ -589,9 +602,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.1090573" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,13 +637,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ConfiClientMain3366.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -747,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,9 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,11 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,9 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,6 +982,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="14" column="47" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
         </state>
       </provider>
     </entry>
